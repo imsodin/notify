@@ -26,3 +26,6 @@ script:
  - "(go version | grep -q 1.4) || go tool vet -all ."
  - go install $GOFLAGS ./...
  - go test -v -race $GOFLAGS ./...
+
+notifications:
+  email: false
