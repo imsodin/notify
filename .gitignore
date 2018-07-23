@@ -90,3 +90,5 @@ Session.vim
 ### JetBrains files ###
 .idea/
 *.iml
+
+# I just wanna push something with 2FA
